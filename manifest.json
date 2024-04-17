@@ -1,0 +1,25 @@
+{
+    "name": "dialApp",
+    "version": "1",
+    "description": "dial app for firefox",
+    "manifest_version": 2,
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "dialApp",
+        "default_popup": "dial.html"
+    },
+    "icons": {
+        "48": "icons/icon-phone-keypad.png"
+    }
+}
