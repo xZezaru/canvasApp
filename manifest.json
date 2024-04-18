@@ -1,7 +1,7 @@
 {
-    "name": "dialApp",
-    "version": "1",
-    "description": "dial app for firefox",
+    "name": "canvasApp",
+    "version": "1.0.1",
+    "description": "canvas app to paint in Firefox",
     "manifest_version": 2,
     "permissions": [
         "<all_urls>",
@@ -16,8 +16,8 @@
     },
     "browser_action": {
         "browser_style": true,
-        "default_title": "dialApp",
-        "default_popup": "dial.html"
+        "default_title": "canvasApp",
+        "default_popup": "canvas.html"
     },
     "icons": {
         "48": "icons/icon-phone-keypad.png"

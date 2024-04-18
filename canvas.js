@@ -1,4 +1,3 @@
-console.log("Corriendo dial");
 
 //  Obtener el contexto de dibujo
 var canvas = document.getElementById("canvas"); // Suponiendo que el ID de tu canvas es "miCanvas"
@@ -16,7 +15,7 @@ const punto = (x, y) => {
 }
 
 const borrarPunto = (x, y) => {
-  ctx.clearRect(x - 6, y - 6, 12, 12); // Borrar un área cuadrada del tamaño del punto
+  ctx.clearRect(x - 6, y - 6, 12, 12);
 }
 
 // Listener
