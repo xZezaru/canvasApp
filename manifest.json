@@ -3,17 +3,6 @@
     "version": "1.0.1",
     "description": "canvas app to paint in Firefox",
     "manifest_version": 2,
-    "permissions": [
-        "<all_urls>",
-        "tabs",
-        "storage"
-    ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
-    },
     "browser_action": {
         "browser_style": true,
         "default_title": "canvasApp",
